@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SA02_VerifyPageTitleOfPage {
+	
 public static void main(String[] args) {
 		
 	String expTitle = "Yahoo", actTitle;
