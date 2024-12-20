@@ -12,7 +12,7 @@ public class SA03_LunchMultipleBrowsers {
 
 	public static void main(String[] args) {
 
-		String browserType = "Safari";
+		String browserType = "Chrome";
 
 		if (browserType.equals("Chrome")) {
 
@@ -31,6 +31,7 @@ public class SA03_LunchMultipleBrowsers {
 			driver = new FirefoxDriver();
 		}
 
+		
 		driver.manage().window().maximize();
 
 		driver.close();
