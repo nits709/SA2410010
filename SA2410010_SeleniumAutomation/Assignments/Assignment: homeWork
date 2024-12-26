@@ -4,3 +4,15 @@ Assignment/ homeWork
 2. Open facebook.com and try login with valid username and invalid passowrd using classname locator
 3. Open https://echotrak.com/ Login.aspx?ReturnUrl=%2flogin
    create 3 different classes for login using id, name and class name.
+4. Open facebook.com and try login with valid username and invalid password using classname locator and display the error message
+5. try login on echotrak site using absolute and relative xpath and display the error message ( also using xpath)
+6. Open https://selenium08.blogspot.com/2019/07/check-box-and-radio-buttons.html then Click on any My favourite colors are: Checkbox
+    a. Display the status ( Selected, Enabled, Visible)
+    b. Select the checkbox which are not selected
+    c. Display the status ( Selected, Enabled, Visibled)
+7. Open https://selenium08.blogspot.com/2019/07/check-box-and-radio-buttons.html then Click on any Your current web browser is: radio button
+    a. Display the status ( Selected, Enabled, Visible)
+    b. Select the checkbox which are not selected
+    c. Display the status ( Selected, Enabled, Visibled)
+    
+    
