@@ -27,6 +27,34 @@ public class SA16_HandlingDropdown {
 		
 		System.out.println("Total Countries : "+ countryList.size());
 		
+		System.out.println("First Country : " + countryList.get(0).getText()); // india
+		
+		//select the dropdown value by visibletext
+		//countries.selectByVisibleText("Colombia");
+		//Select the dropdwon value by selectbyvalue method
+		//countries.selectByValue("48");
+		countries.selectByIndex(32);
+		
+		
+		
+		
+		
+//		for(WebElement lnks : countryList ) {
+//			System.out.println(" link name " + lnks.getText());
+//		}
+		
+//		for(int i =0; i< countryList.size() ; i++) {
+//			
+//			System.out.println(" Index is " + i + ". Link Name is " +countryList.get(i).getText());
+//			
+//			if(countryList.get(i).getText().equals("Aruba")) {
+//				System.out.println("Control inside if condition and country name is " + countryList.get(i).getText());
+//				
+//			}
+//			
+//		}
+		
+		
 		
 
 	}

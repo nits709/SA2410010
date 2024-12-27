@@ -14,5 +14,10 @@ Assignment/ homeWork
     a. Display the status ( Selected, Enabled, Visible)
     b. Select the checkbox which are not selected
     c. Display the status ( Selected, Enabled, Visibled)
+8. Navigate to google.co.in, enter any keywords (Selenium) and read the text from suggestion lists and print over console.
+9. Open https://register.rediff.com/register/register.php?FormName=user_details
+    Automate - Day , Month, Year Dropdown by using all possible select class functions.
+       
+
     
     
