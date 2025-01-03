@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.locators.RelativeLocator;
 
-public class SA_24_LocateByRelativeLocator {
+public class SA24_LocateByRelativeLocator {
 
 	public static void main(String[] args) {
 		

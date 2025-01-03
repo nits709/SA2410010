@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 
-public class SA23_AutomateREdBus_PageFormat {
+public class SA23_AutomateRedBus_PageFormat {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();

@@ -17,7 +17,15 @@ Assignment/ homeWork
 8. Navigate to google.co.in, enter any keywords (Selenium) and read the text from suggestion lists and print over console.
 9. Open https://register.rediff.com/register/register.php?FormName=user_details
     Automate - Day , Month, Year Dropdown by using all possible select class functions.
-10. Complete RedBus assignment by using explicitwait.       
-
+10. Complete RedBus assignment by using explicitwait.
+11. Open the https://register.rediff.com/register/register.php?FormName=user_details
+      a. Complete/ automate all the fields
+      b. Display the message which get displayed after clicking on check availability button       
+12. https://demoqa.com/webtables
+     a. try to display all header column
+     b. Click on Add button 
+     c. Enter all the data
+     d. Search the name in first name column
+     e. click on delete button in the same row.
     
     
