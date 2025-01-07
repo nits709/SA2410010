@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 
 public class SA22_AutomateRedBus_FluentWait {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
@@ -19,6 +19,7 @@ public class SA22_AutomateRedBus_FluentWait {
 
 		// webdriver object, time (wait time)
 		
+		Thread.sleep(2000);
 		FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver);
 
 		// From City
