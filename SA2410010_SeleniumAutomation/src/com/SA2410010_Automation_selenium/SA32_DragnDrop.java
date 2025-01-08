@@ -16,6 +16,7 @@ public class SA32_DragnDrop {
 		dr.get("https://jqueryui.com/droppable/");
 
 		dr.switchTo().frame(0);
+		dr.switchTo().frame(0);
 		
 		Actions act = new Actions(dr);
 		WebElement source = dr.findElement(By.id("draggable"));

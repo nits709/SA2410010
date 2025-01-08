@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-08T10:26:04 GMT-08:00" name="Default suite" finished-at="2025-01-08T10:26:04 GMT-08:00" duration-ms="161">
+    <groups>
+    </groups>
+    <test started-at="2025-01-08T10:26:04 GMT-08:00" name="Default test" finished-at="2025-01-08T10:26:04 GMT-08:00" duration-ms="161">
+      <class name="com.testNG.SATNG_03_DataProvider">
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.SATNG_03_DataProvider@5890e879]" started-at="2025-01-08T10:26:04 GMT-08:00" name="getData" data-provider="sendData" finished-at="2025-01-08T10:26:04 GMT-08:00" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2345677]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nitin@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.SATNG_03_DataProvider@5890e879]" started-at="2025-01-08T10:26:04 GMT-08:00" name="getData" data-provider="sendData" finished-at="2025-01-08T10:26:04 GMT-08:00" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperAdmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[XXXXXXX]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sachin@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.SATNG_03_DataProvider@5890e879]" started-at="2025-01-08T10:26:04 GMT-08:00" name="getData" data-provider="sendData" finished-at="2025-01-08T10:26:04 GMT-08:00" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LocalAdmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[---YYY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Deepak@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+      </class> <!-- com.testNG.SATNG_03_DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
