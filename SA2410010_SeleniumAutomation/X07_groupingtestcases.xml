@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Suite">
+	<test name="My test">
+		<classes>
+			<class name="com.testNG.SATNG_07_Groupingtc">
+			</class>
+			<groups>
+			 <run>
+			  <include name = "smoke"></include>
+			  <include name = "regression"></include>
+			 </run>
+			</groups>
+		</classes>
+	</test>
+</suite>

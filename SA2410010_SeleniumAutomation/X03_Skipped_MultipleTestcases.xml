@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Suite">
+	<test name="My test">
+		<classes>
+			<class name="com.testNG.SATNG_02_ALLAnotations">
+				<methods>
+					<exclude name="testB"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

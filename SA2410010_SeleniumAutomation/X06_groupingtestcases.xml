@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Suite">
+	<test name="My test">
+		<classes>
+			<class name="com.testNG.SATNG_06_groupingThetestcases">
+			</class>
+			<groups>
+			 <run>
+			  <include name = "UAT"></include>
+			  <include name = "regression"></include>
+			 </run>
+			</groups>
+		</classes>
+	</test>
+</suite>

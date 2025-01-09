@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Suite"   parallel = "methods" thread-count="2">
+	<test name="My test">
+		<classes>
+			<class name="com.testNG.SATNG_01_FirstTest">
+			</class>
+		</classes>
+	</test>
+</suite>

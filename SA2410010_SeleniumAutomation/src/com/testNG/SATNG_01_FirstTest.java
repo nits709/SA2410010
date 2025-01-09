@@ -27,15 +27,15 @@ public class SATNG_01_FirstTest {
 		dr.close();
   }
   
-  @Test (priority=2)
-  public void openCNN() {
-	  System.out.println("openCNN");
-	  WebDriver dr = new ChromeDriver();
-		dr.manage().window().maximize();
-		dr.get("https://cnn.com");
-		System.out.println(dr.getTitle());
-		dr.close();
-  }
+//  @Test (priority=2)
+//  public void openCNN() {
+//	  System.out.println("openCNN");
+//	  WebDriver dr = new ChromeDriver();
+//		dr.manage().window().maximize();
+//		dr.get("https://cnn.com");
+//		System.out.println(dr.getTitle());
+//		dr.close();
+//  }
   
   
 }
