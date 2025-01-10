@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testNG.SATNG_01_FirstTest">
+      <class name="com.testNG.SATNG_10_TC_Runner">
         <methods>
-          <include name="openCNN"/>
+          <include name="afterTest"/>
+          <include name="loginTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.testNG.SATNG_01_FirstTest -->
+      </class> <!-- com.testNG.SATNG_10_TC_Runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

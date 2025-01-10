@@ -33,6 +33,82 @@ Assignment/ homeWork
     c. check wether it is showing the correct result or not
 14. Open https://money.rediff.com/gainers/bse/daily/groupa?src=gain_lose
     a. Display list of all companies
-    b. Display the higest current price.    
+    b. Display the higest current price. 
+    14. Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	a. Enter user name as admin
+	b. Enter password as admin123
+	c. Click on Login
+	d. Click on down arrow next to the name
+	e. Click on logout
+15. Open facebook.com and try login with valid user name and invalid password using Relative locator 
+16. Open https://money.rediff.com/gainers/bse/daily/groupa?src=gain_lose
+	a. Display list of all the companies
+	b. Display the highest Current Price
+17. Open https://demoqa.com/webtables
+	a. Try to display all header columns
+	b. Click on Add button
+	c. Enter all the data
+	d. Search the name in First Name column
+	e. Click on delete button in the same row
+18. On https://demoqa.com/alerts 
+	Try handling 2nd alert using ExplictWait (ExpectedConditions.alertIsPresent())
+19. On Google 
+	a. Enter your full name in search box
+	b. Click on Google Search button
+	c. Check whether it is showing the correct result or not.
+20. Try login on OrangeHRM with valid data and logout only when it is logged in successfully
+21. On https://demo.guru99.com/test/upload/
+	a. Try uploading any file
+	b. Click on I accept terms Checkbox
+	c. Click on submit button
+	d. Display the message that is displayed on the page.
+22. Open https://sampleapp.tricentis.com/101/index.php
+	a. Click on Automobile
+	b. Fill all the fields on this page
+	c. Click on Next Button
+	d. Fill all the fields on this page as well
+	e. Select the picture
+	f. If possible fill the next form as well
+23. Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	a. Login with Admin 
+	b. Click on PIM
+	c. Click on + Add button
+	d. Enter First Name 
+	e. Enter Middle Name
+	f. Enter Last Name
+	g. Click on Create Login Details
+	h. Enter User Name
+	i. Enter Password
+	j. Enter Confirm Password
+	k. Click on Save Button
+	l. Logout
+
+	m. Login using data provided in step no h & i
+	n. Display name of employee on logout link
+	o. Click on My Info
+	p. Display the Employee ID
+	q. Logout
+24. Display all menus from amazon.in
+25. Open https://demo.guru99.com/test/simple_context_menu.html
+	Display all the sub menus those got displayed after right click
+26. Open https://www.amazon.in/
+	a. Print the title
+	b. Click on Sell	
+	c. Print the title
+	d. Open https://www.amazon.in/
+	e. Print the title
+	f. Click on Best Sellers
+	g. Print the title
+	h. Open https://www.amazon.in/
+	i. Print the title
+	j. Click on Mobiles
+	k. Print the title
+	l. Open https://www.amazon.in/
+	m. Print the title
+	n. Click on Electronics
+	o. Print the title
+	p. Close the browser
+
+       
     
     
