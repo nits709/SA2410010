@@ -1,13 +1,10 @@
 package com.SA2410010_Automation_selenium;
 
 import java.time.Duration;
-import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
 
 public class SA23_AutomateRedBus_PageFormat {
 

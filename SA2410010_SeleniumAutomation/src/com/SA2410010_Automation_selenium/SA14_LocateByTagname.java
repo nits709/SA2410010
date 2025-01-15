@@ -1,6 +1,5 @@
 package com.SA2410010_Automation_selenium;
 
-import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.By;

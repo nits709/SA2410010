@@ -1,25 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-10T10:13:53 GMT-08:00" name="Default suite" finished-at="2025-01-10T10:14:19 GMT-08:00" duration-ms="25969">
+  <suite started-at="2025-01-15T10:17:00 GMT-08:00" name="Default suite" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="775">
     <groups>
     </groups>
-    <test started-at="2025-01-10T10:13:53 GMT-08:00" name="Default test" finished-at="2025-01-10T10:14:19 GMT-08:00" duration-ms="25969">
-      <class name="com.testNG.SATNG_10_TC_Runner">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testNG.SATNG_10_TC_Runner@dbf57b3]" started-at="2025-01-10T10:13:53 GMT-08:00" name="beforeTest" finished-at="2025-01-10T10:14:11 GMT-08:00" duration-ms="18312" status="PASS">
+    <test started-at="2025-01-15T10:17:00 GMT-08:00" name="Default test" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="775">
+      <class name="com.testNG.SATNG_03_POI_WriteDataInMultipleLines">
+        <test-method is-config="true" signature="setupObjects()[pri:0, instance:com.testNG.SATNG_03_POI_WriteDataInMultipleLines@4efbca5a]" started-at="2025-01-15T10:17:00 GMT-08:00" name="setupObjects" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="loginTest()[pri:0, instance:com.testNG.SATNG_10_TC_Runner@dbf57b3]" started-at="2025-01-10T10:14:11 GMT-08:00" name="loginTest" finished-at="2025-01-10T10:14:19 GMT-08:00" duration-ms="7614" status="PASS">
+        </test-method> <!-- setupObjects -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.SATNG_03_POI_WriteDataInMultipleLines@4efbca5a]" started-at="2025-01-15T10:17:00 GMT-08:00" name="getData" data-provider="supplyTestData" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nitin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nitin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234556]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testNG.SATNG_10_TC_Runner@dbf57b3]" started-at="2025-01-10T10:14:19 GMT-08:00" name="afterTest" finished-at="2025-01-10T10:14:19 GMT-08:00" duration-ms="1" status="PASS">
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.SATNG_03_POI_WriteDataInMultipleLines@4efbca5a]" started-at="2025-01-15T10:17:00 GMT-08:00" name="getData" data-provider="supplyTestData" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prateek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prateek123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.SATNG_03_POI_WriteDataInMultipleLines@4efbca5a]" started-at="2025-01-15T10:17:00 GMT-08:00" name="getData" data-provider="supplyTestData" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin534]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.SATNG_03_POI_WriteDataInMultipleLines@4efbca5a]" started-at="2025-01-15T10:17:00 GMT-08:00" name="getData" data-provider="supplyTestData" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Neha321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.SATNG_03_POI_WriteDataInMultipleLines@4efbca5a]" started-at="2025-01-15T10:17:00 GMT-08:00" name="getData" data-provider="supplyTestData" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jogn123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[88888]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.SATNG_03_POI_WriteDataInMultipleLines@4efbca5a]" started-at="2025-01-15T10:17:00 GMT-08:00" name="getData" data-provider="supplyTestData" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micheal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n!!!!123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testNG.SATNG_03_POI_WriteDataInMultipleLines@4efbca5a]" started-at="2025-01-15T10:17:00 GMT-08:00" name="afterTest" finished-at="2025-01-15T10:17:00 GMT-08:00" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.testNG.SATNG_10_TC_Runner -->
+      </class> <!-- com.testNG.SATNG_03_POI_WriteDataInMultipleLines -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
