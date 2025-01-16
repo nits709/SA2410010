@@ -24,6 +24,7 @@ public class SATNG_04_testng_Assertions {
 		Assert.assertTrue(12>11); // not passing the message
 		Assert.assertTrue(11>14,"some thing is wrong with the conditions"); // passing message.
 		Assert.assertTrue(5<10,"5 is not smaller than 10 , please verify");
+	
 	}
 	
 	@Test

@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.SA2410010_Automation_selenium.Magicbricks">
+      <class name="com.selenium.mavenproject.takeScreenShotWithBase">
         <methods>
-          <include name="testApp"/>
+          <include name="takeScreenShots"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.SA2410010_Automation_selenium.Magicbricks -->
+      </class> <!-- com.selenium.mavenproject.takeScreenShotWithBase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

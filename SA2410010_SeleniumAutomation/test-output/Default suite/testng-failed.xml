@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testNG.SATNG_10_TC_Runner">
+      <class name="com.SA2410010_Automation_selenium.Magicbricks">
         <methods>
-          <include name="afterTest"/>
-          <include name="loginTest"/>
-          <include name="beforeTest"/>
+          <include name="testApp"/>
         </methods>
-      </class> <!-- com.testNG.SATNG_10_TC_Runner -->
+      </class> <!-- com.SA2410010_Automation_selenium.Magicbricks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

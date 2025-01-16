@@ -58,5 +58,6 @@
 	<classpathentry kind="lib" path="/Volumes/Renuka/Jar_Repository/poi-bin-5.2.3/auxiliary/bcutil-jdk15on-1.70.jar"/>
 	<classpathentry kind="lib" path="/Volumes/Renuka/Jar_Repository/poi-bin-5.2.3/auxiliary/xml-apis-ext-1.3.04.jar"/>
 	<classpathentry kind="lib" path="/Volumes/Renuka/Jar_Repository/poi-bin-5.2.3/auxiliary/xmlgraphics-commons-2.6.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Renuka/Jar_Repository/extentreports-5.1.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
