@@ -14,13 +14,9 @@ public class takeScreenShotWithBase {
 	WebDriver driver;
 	base baseClass ; 
 	
-	@BeforeTest
-	public void launchBrowser() throws IOException {
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		baseClass = new base(driver);
-		
-	}
+	
+	
+	
 	
 	String expectedTitle = "Google";
 	

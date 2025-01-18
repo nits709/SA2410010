@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.mavenproject.takeScreenShotWithBase">
+      <class name="com.selenium.mavenproject.LoginTestcases">
         <methods>
-          <include name="takeScreenShots"/>
-          <include name="launchBrowser"/>
+          <include name="login"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.selenium.mavenproject.takeScreenShotWithBase -->
+      </class> <!-- com.selenium.mavenproject.LoginTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

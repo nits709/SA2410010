@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-16T10:18:51 GMT-08:00" name="Default suite" finished-at="2025-01-16T10:19:05 GMT-08:00" duration-ms="14089">
+  <suite started-at="2025-01-17T10:15:47 GMT-08:00" name="Default suite" finished-at="2025-01-17T10:16:18 GMT-08:00" duration-ms="30284">
     <groups>
     </groups>
-    <test started-at="2025-01-16T10:18:51 GMT-08:00" name="Default test" finished-at="2025-01-16T10:19:05 GMT-08:00" duration-ms="14089">
-      <class name="com.selenium.mavenproject.takeScreenShotWithBase">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.selenium.mavenproject.takeScreenShotWithBase@3835c46]" started-at="2025-01-16T10:18:51 GMT-08:00" name="launchBrowser" finished-at="2025-01-16T10:18:58 GMT-08:00" duration-ms="6829" status="PASS">
+    <test started-at="2025-01-17T10:15:47 GMT-08:00" name="Default test" finished-at="2025-01-17T10:16:18 GMT-08:00" duration-ms="30284">
+      <class name="com.selenium.mavenproject.LoginTestcases">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.selenium.mavenproject.LoginTestcases@158da8e]" started-at="2025-01-17T10:15:47 GMT-08:00" name="beforeTest" finished-at="2025-01-17T10:15:47 GMT-08:00" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="takeScreenShots()[pri:0, instance:com.selenium.mavenproject.takeScreenShotWithBase@3835c46]" started-at="2025-01-16T10:18:58 GMT-08:00" name="takeScreenShots" finished-at="2025-01-16T10:19:05 GMT-08:00" duration-ms="7219" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.mavenproject.LoginTestcases@158da8e]" started-at="2025-01-17T10:15:48 GMT-08:00" name="login" data-provider="getLoginData" finished-at="2025-01-17T10:16:03 GMT-08:00" duration-ms="14644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nitin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gupta]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- takeScreenShots -->
-      </class> <!-- com.selenium.mavenproject.takeScreenShotWithBase -->
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.mavenproject.LoginTestcases@158da8e]" started-at="2025-01-17T10:16:03 GMT-08:00" name="login" data-provider="getLoginData" finished-at="2025-01-17T10:16:18 GMT-08:00" duration-ms="14889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[star]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[agile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.selenium.mavenproject.LoginTestcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
