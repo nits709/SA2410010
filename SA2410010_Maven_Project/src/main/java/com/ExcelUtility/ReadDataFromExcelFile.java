@@ -18,9 +18,9 @@ public class ReadDataFromExcelFile {
 	 File file;
 	 FileInputStream fis;
 	 XSSFWorkbook wb;
-	 XSSFSheet sheet;
-	 XSSFRow row;
-	 XSSFCell cell;
+	static  XSSFSheet sheet;
+	static  XSSFRow row;
+	static  XSSFCell cell;
 	static int totalRows;
 	 
 	public static void main(String[] args) throws IOException {
@@ -32,6 +32,8 @@ public class ReadDataFromExcelFile {
 				for (int j = 0; j < 2; j++) {
 				
 					System.out.println(lData[i][j]);
+					
+					
 				}
 			}		
 	}

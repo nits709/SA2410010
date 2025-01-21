@@ -3,8 +3,6 @@
   <groupId>com.selenium.mavenproject</groupId>
   <artifactId>SA2410010_Maven_Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  
   <dependencies>
   <dependency>
     <groupId>org.seleniumhq.selenium</groupId>

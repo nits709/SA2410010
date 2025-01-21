@@ -15,16 +15,32 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.report.ExtentReporter;
 
 public class baseUtil {
 
-	WebDriver baseUtilDriver;
+	public WebDriver baseUtilDriver;
+	public ExtentReports reports;
+	ExtentTest test;
 	File file;
 	FileInputStream fis;
 	Properties prop;
 	String propFilePath = "/Volumes/Renuka/SA2410010/SA2410010_Maven_Project/data.properties";
 
+	@BeforeMethod 
+	public void init() {
+		System.out.println("Before Method");
+		reports = ExtentReporter.getReports();
+		test = reports.createTest("LoginTest");
+	}
+	
+	
+	
 	@BeforeTest
 	public void beforeTest() throws IOException { // method is responsible to initialized all objects of my framework
 		

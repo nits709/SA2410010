@@ -42,6 +42,7 @@ public class base {
 	}
 	
 	public void getScreenShot(String filePath) throws IOException {
+		
 		File srcFile = ((TakesScreenshot)Basedriver).getScreenshotAs(OutputType.FILE);
 		FileHandler.copy(srcFile, new File(prop.getProperty("screenshotFilePath") + filePath));	
 	}

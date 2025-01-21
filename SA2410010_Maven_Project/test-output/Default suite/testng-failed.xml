@@ -5,7 +5,9 @@
     <classes>
       <class name="com.selenium.mavenproject.LoginTestcases">
         <methods>
+          <include name="init"/>
           <include name="login"/>
+          <include name="closeDrivers"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.selenium.mavenproject.LoginTestcases -->
