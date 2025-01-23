@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mycucumber</groupId>
-    <artifactId>MyCucumberProject</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <properties>
+	<groupId>com.hybridFramework</groupId>
+	<artifactId>MyHybridFramework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>11</java.version>
 		<junit.version>4.13.1</junit.version>
@@ -17,7 +16,8 @@
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<!--
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -43,7 +43,7 @@
 			<version>${cucumber.version}</version>
 			<scope>compile</scope>
 		</dependency>
-		
+
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -56,14 +56,14 @@
 			<artifactId>poi</artifactId>
 			<version>5.3.0</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.3.0</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -71,9 +71,9 @@
 			<version>5.1.2</version>
 		</dependency>
 		<dependency>
-   			 <groupId>org.testng</groupId>
-    		<artifactId>testng</artifactId>
-    		<version>7.10.1</version>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.10.1</version>
 		</dependency>
 	</dependencies>
 
@@ -99,8 +99,8 @@
                              information to disambiguate between different
                              examples and scenarios. -->
 						<configurationParameters>
-                            cucumber.junit-platform.naming-strategy=long
-                        </configurationParameters>
+							cucumber.junit-platform.naming-strategy=long
+						</configurationParameters>
 					</properties>
 				</configuration>
 			</plugin>
